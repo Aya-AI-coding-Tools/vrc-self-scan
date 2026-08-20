@@ -1,6 +1,6 @@
 # VRC-SELF-SCAN
 ## サービスページ
-- https://aya-ai-coding-tools.github.io/VRC-Self-Scan
+- https://aya-ai-coding-tools.github.io/vrc-self-scan
 
 ## 追記事項
 - 本コードは、作成時に生成AIを使用しております。
