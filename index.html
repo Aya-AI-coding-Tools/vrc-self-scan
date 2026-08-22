@@ -2683,6 +2683,11 @@
 				<p>
 					心理検査や科学的測定ではなく、自己回答ベースのエンタメ診断です。「客観視」は断定ではなく、自分の見え方を考える材料として使ってください。
 				</p>
+				<br />
+				<h3>更新情報</h3>
+				<ul>
+					<li>2026年08月22日： 生成される画像の文言に誤りがあったため修正しました。</li>
+				</ul>
 				<button class="secondary" id="closeAbout">CLOSE</button>
 			</div>
 		</div>
@@ -5834,7 +5839,7 @@ https://aya-ai-coding-tools.github.io/vrc-self-scan`;
 					ctx.fillText('あなたにしっくりくるのは…', leftX, topY + 42);
 					ctx.fillStyle = '#ffffff';
 					ctx.font = 'bold 54px sans-serif';
-					const avatarLine = `${avatarLabel(currentType)}ちゃん！`;
+					const avatarLine = `${avatarLabel(currentType)}！`;
 					if (ctx.measureText(avatarLine).width > 510) {
 						ctx.font = 'bold 46px sans-serif';
 					}
